@@ -4,7 +4,7 @@
 #reference genome
 ref=genomes/Liflandii.fasta
 
-ragtag.py scaffold $ref P7741.polished.fasta -o P7741_reordered
+ragtag.py scaffold $ref P7741_SPADES_OUT/contigs.fasta -o P7741_reordered
 
 
 #extract the reordered contig with a custom python script

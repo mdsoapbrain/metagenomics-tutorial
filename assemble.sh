@@ -1,4 +1,4 @@
-#!/bin/bash
+##!/bin/bash
 #PBS -N spades
 #PBS -o spades_log.txt -e spades_err.txt
 #PBS -l walltime=1:00:00

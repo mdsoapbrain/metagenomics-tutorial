@@ -1,4 +1,10 @@
 #!/bin/bash
+#PBS -N dendogram
+#PBS -o dendogram_log.txt -e dendogram_err.txt
+#PBS -l walltime=1:00:00
+#PBS -l nodes=1:ppn=8
+source activate metagenomics-tutorial
+cd /home/hpc/cychen/user/<username>/week4/metagenomics-tutorial
 
 
 mkdir tmp_fastas
